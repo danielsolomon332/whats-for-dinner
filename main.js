@@ -47,3 +47,16 @@ var desserts = [
   "Croissants",
   "Eclairs",
 ];
+
+var radioBtns = document.querySelector(".radioBtn")
+var cookBtn = document.querySelector(".cookBtn")
+var recipeSelectionBox = document.querySelector(".recipe-selection-box")
+var showRecipeBox = document.querySelector(".show-recipe-box")
+var potPicture = document.querySelector("img")
+
+recipeSelectionBox.addEventListener('click', dishSelection)
+cookBtn.addEventListener('click', showRecipe)
+
+// I want on btton click for the cookBtn, for the selected radio button to iterate
+// through the selected arrayed and to display a random dish in
+// the "show-recipe-box" and to hide the pot picture
