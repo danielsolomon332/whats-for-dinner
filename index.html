@@ -5,9 +5,28 @@
     <title>What's for Dinner?</title>
   </head>
   <body>
-    <nav>
-      <h1>What's for Dinner?</h1>
-    </nav>
+    <header>
+      <h1 class="title-text">What's for Dinner?</h1>
+    </header>
+    <main>
+      <section class="recipe-selection">
+        <div class="recipe-selection-box">
+          <h1 class="selection-box-title">What are you looking for?<sup>*</sup></h1>
+          <input class="radionBtn" type="radio" id="side-dish">
+          <label for="side-dish">Side</label><br>
+          <input class="radionBtn" type="radio" id="main-dish">
+          <label for="main-dish">Main Dish</label><br>
+          <input class="radionBtn" type="radio" id="dessert-dish">
+          <label for="dessert-dish">Dessert</label><br>
+          <input class="radionBtn" type="radio" id="entire-meal">
+          <label for="entire-meal">Entire Meal</label><br>
+          <button class="cookBtn">Let's Cook!</button>
+        </div>
+      </section>
+      <section class="show-recipe-box">
+          <img src="assets/cookpot.svg" alt="Cookpot Picture">
+      </section>
+    </main>
+    <script type="text/javascript" src="main.js"></script>
   </body>
-  <script type="text/javascript" src="main.js"></script>
 </html>
